@@ -1,0 +1,187 @@
+<!index.html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistemas de CRISPR-Cas para Ingeniería Genética</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      background: #34495e;
+      padding: 0.8rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      background: #2c3e50;
+      color: white;
+      padding: 1rem;
+      margin-top: 40px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background: #f0f0f0;
+    }
+    img {
+      max-width: 100%;
+      display: block;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sistemas de CRISPR-Cas para Ingeniería Genética</h1>
+    <p>Fundamentos, aplicaciones y perspectivas</p>
+  </header>
+
+  <nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#introduccion">Introducción</a>
+    <a href="#marco">Marco Teórico</a>
+    <a href="#recursos">Recursos Visuales</a>
+    <a href="#bibliografia">Bibliografía</a>
+  </nav>
+
+  <main>
+    <section id="presentacion">
+      <h2>1. Presentación del tema</h2>
+      <p><strong>Título provisional:</strong> Sistemas de CRISPR‑Cas para ingeniería genética: fundamentos, aplicaciones y perspectivas</p>
+      <p><strong>Objetivo general:</strong> Introducir los tipos principales de sistemas CRISPR‑Cas (Cas9, Cas12, Cas13), describir su mecanismo molecular y aplicaciones —desde terapia génica hasta mejora agrícola—, y revisar los retos actuales (especificidad, delivery, regulación).</p>
+    </section>
+
+    <section id="introduccion">
+      <h2>2. Introducción</h2>
+      <ul>
+        <li><strong>Contexto histórico:</strong> origen como sistema inmune bacteriano adaptativo y descubrimiento de funciones por Ishino et al. 1987, Mojica, Jansen…</li>
+        <li><strong>Premisa:</strong> adaptación de CRISPR‑Cas9 (Doudna & Charpentier 2012) para edición genética eficiente y programable.</li>
+        <li><strong>Relevancia actual:</strong> Premio Nobel 2020, impacto en biomedicina, biotecnología agrícola y debates éticos.</li>
+      </ul>
+    </section>
+
+    <section id="marco">
+      <h2>3. Marco Teórico</h2>
+
+      <h3>3.1 Mecanismo molecular</h3>
+      <ul>
+        <li>Componentes: Cas9, crRNA/tracrRNA → sgRNA.</li>
+        <li>Reconocimiento de ADN y corte dirigido: necesidad de sitio PAM y formación de doble hebra rota.</li>
+        <li>Reparación de doble hebra:
+          <ul>
+            <li><strong>NHEJ:</strong> genera inserciones/deleciones (indels).</li>
+            <li><strong>HDR:</strong> permite inserción precisa usando una plantilla.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>3.2 Variantes de Cas</h3>
+      <ul>
+        <li><strong>Cas12a/cpf1:</strong> cortes escalonados y menor tamaño.</li>
+        <li><strong>Cas13:</strong> edición de ARN, sin corte de ADN.</li>
+        <li><strong>Sistemas emergentes:</strong> Cas asociados a transposones (CAST) permiten integración sin romper ADN.</li>
+      </ul>
+
+      <h3>3.3 Diseño y especificidad</h3>
+      <ul>
+        <li>Uso de herramientas bioinformáticas para minimizar off-target.</li>
+        <li>Modelos de deep learning para evaluar eficiencia y precisión de sgRNA.</li>
+      </ul>
+
+      <h3>3.4 Aplicaciones</h3>
+      <ul>
+        <li>Terapia de enfermedades monogénicas (ej. fibrosis quística).</li>
+        <li>Edición de cultivos agrícolas (resistencia y tolerancia).</li>
+        <li>Generación de modelos animales y estudios funcionales.</li>
+      </ul>
+
+      <h3>3.5 Retos y desafíos</h3>
+      <ul>
+        <li>Efectos off-target y precisión limitada.</li>
+        <li>Dificultades en la entrega eficiente de componentes.</li>
+        <li>Debates éticos sobre edición germinal y gene drives.</li>
+      </ul>
+    </section>
+
+    <section id="recursos">
+      <h2>4. Recursos Visuales</h2>
+      <p>Ejemplo: diagrama del mecanismo CRISPR‑Cas9.</p>
+      <img src="https://www.researchgate.net/profile/Mohammad-Bahadori/publication/355889704/figure/fig1/AS:1072810000951297@1637389264767/Schematic-diagram-of-CRISPR-Cas9-mechanism-The-system-consists-of-Cas9-enzyme-and-gRNA.png" alt="Diagrama CRISPR-Cas9">
+    </section>
+
+    <section id="bibliografia">
+      <h2>5. Revisión bibliográfica recomendada</h2>
+      <table>
+        <tr>
+          <th>Título</th>
+          <th>Comentario</th>
+        </tr>
+        <tr>
+          <td>CRISPR‑Cas systems: overview, innovations and applications in human disease research</td>
+          <td>Revisión amplia sobre mecanismos y aplicaciones biomédicas.</td>
+        </tr>
+        <tr>
+          <td>CRISPR/Cas9 therapeutics: progress and prospects</td>
+          <td>Discusión sobre edición, vectores de entrega y ensayos clínicos.</td>
+        </tr>
+        <tr>
+          <td>Deep learning in CRISPR‑Cas systems: a review of recent studies</td>
+          <td>Análisis de predicción de eficiencia de sgRNA mediante IA.</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Blog CRISPR-Cas - Proyecto académico
+  </footer>
+</body>
+</html>
